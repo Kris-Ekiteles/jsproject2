@@ -15,20 +15,21 @@ function prime() {
   if (num <= 1) {
     alert("enter number greater that 2");
   } else if (num >= 2 && num % i == 0) {
-    alert(`${number} is a prime`);
+    alert(`${num} is a prime`);
   } else {
-    alert(`${number}is not a prime number`);
+    alert(`${num} is not a prime number`);
   }
 }
-//function to find factorial
-function factorial() {
-  let num = parseInt(prompt("enter for factorial calculation"));
-  let result = 0;
-  if (num === 0 || num === 1) alert("is 1");
-  for (let i = 0; i <= num; i++) {
-    result = num * i;
-    const thefactorial = result ;
 
-    alert(thefactorial);
-  }
-}
+//function to find factorial
+// function factorial() {
+//   let num = parseInt(prompt("enter for factorial calculation"));
+//   let result = 0;
+//   if (num === 0 || num === 1) alert("is 1");
+//   for (let i = 0; i <= num; i++) {
+//     result = num * i;
+//     const thefactorial = result ;
+
+//     alert(thefactorial);
+//   }
+// }
